@@ -73,11 +73,11 @@ void loop(){
     clipping = 0;
   }
 
-  frequency = 38462/period;//timer rate/period
+  frequency = 43962/period;//timer rate/period
   //print results
   Serial.print(frequency);
   Serial.println(" hz");
   
-  delay(100);
+  delay(300);
 }
 
